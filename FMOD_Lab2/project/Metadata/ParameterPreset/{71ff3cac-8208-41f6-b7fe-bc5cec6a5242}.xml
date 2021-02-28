@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{71ff3cac-8208-41f6-b7fe-bc5cec6a5242}">
+		<property name="name">
+			<value>MasterPitchParam</value>
+		</property>
+		<relationship name="folder">
+			<destination>{847d5eba-aca0-40dc-9a0e-210c952980fc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bd7196ee-129a-475d-bd62-724b79562195}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bd7196ee-129a-475d-bd62-724b79562195}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
